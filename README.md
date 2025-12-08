@@ -2,15 +2,30 @@
 
 Otimização do Plano de Cultivo de uma Multinacional com implementação do Algoritmo Genético para otimização do plano de cultivo.
 
-## Instalacao
+## Objetivo
+Selecionar a melhor combinação Produto-Estado para maximizar o lucro total, respeitando:
+1.  *Área Máxima:* 15.000 hectares.
+2.  *Diversidade Mínima:*
+    * Bananas em pelo menos 10 estados.
+    * Laranjas em pelo menos 5 estados.
+    * Maracujá em pelo menos 5 estados.
 
-rm -rf .venv/
+## Estrutura do Projeto
+* src/: Código fonte modularizado (Engine do AG e Utilitários).
+* data/: Base de dados (PAM - Produção Agrícola Municipal).
+* figures/: Gráficos de convergência gerados.
+* notebook.ipynb: Relatório executável com análises.
 
-python3.12 -m venv .venv && source .venv/bin/activate
+## 🚀 Como Executar
+1. Instale as dependências: pip install pandas numpy matplotlib
+2. Abra o notebook.ipynb no Jupyter ou VS Code.
+3. Execute todas as células para rodar a bateria de 5 testes.
 
-pip install -r requirements.txt
-
-python main.py
+## 📊 Resultados da Experimentação
+O algoritmo foi executado 5 vezes para validação estatística.
+* *Melhor Lucro Encontrado:* R$ 654,245,915.00
+* *Tempo Médio de Execução:* 0.254 segundos
+* *Comportamento:* O algoritmo demonstrou convergência estável, superando máximos locais através de uma taxa de mutação ajustada (5%) e elitismo (20%).
 
 ## License
 
