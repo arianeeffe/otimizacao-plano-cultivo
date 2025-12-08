@@ -91,8 +91,6 @@ def avaliar_individuo(linha_genes):
 
 """## Geração
 Nesta etapa em que a simulação ocorre. O processo é repetido iterativamente por um número definido de gerações (`n_geracoes`). A cada geração, o algoritmo calcula a aptidão de todos os planos de cultivo da população atual e identifica e armazena a melhor solução global encontrada até o momento.
-
-
 """
 
 n_geracoes = 100
@@ -124,7 +122,6 @@ nova_geracao = list(elite_genes)
 
 """## Cruzamento (*Crossover*)
 Nesta etapa, ocorre a reprodução. O objetivo é criar novos indivíduos misturando as características de soluções que já são boas.
-
 Para garantir a qualidade dos descendentes, limitamos a escolha dos pais à metade superior da população (os 50% melhores). Isso aumenta a chance de propagar "genes de lucro alto" . Além disso, utilizamos o método de Ponto de Corte Único. Escolhemos um ponto aleatório no vetor de genes; o filho herda a primeira parte do Pai 1 e a segunda parte do Pai 2. Isso permite combinar, por exemplo, a estratégia de Bananas de um plano com a estratégia de Laranjas de outro.
 """
 
