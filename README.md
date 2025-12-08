@@ -20,7 +20,7 @@ Selecionar a melhor combinação Produto-Estado para maximizar o lucro total, re
 
 ## Estrutura do Projeto
 * src/: Código fonte modularizado (Engine do AG e Utilitários).
-* data/: Base de dados (PAM - Produção Agrícola Municipal).
+* data/: Base de dados (PAM - Produção Agrícola Municipal)
 * figures/: Gráficos de convergência gerados.
 * notebook.ipynb: Relatório executável com análises.
 
