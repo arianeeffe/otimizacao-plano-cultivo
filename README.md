@@ -34,6 +34,12 @@ O algoritmo foi executado 5 vezes para validação estatística.
 * *Melhor Lucro Encontrado:* R$ 654,245,915.00
 * *Tempo Médio de Execução:* 0.254 segundos
 * *Comportamento:* O algoritmo demonstrou convergência estável, superando máximos locais através de uma taxa de mutação ajustada (5%) e elitismo (20%).
+* *Convergência:* Em todas as rodadas, o algoritmo foi capaz de sair de uma zona de penalidade (fitness negativo) para uma zona de lucro positivo dentro das primeiras 10 gerações.
+* *Variação:* Embora o número de amostras seja reduzido ($N=5$), observou-se que a diferença entre a melhor e a pior execução não foi significativa a ponto de invalidar o modelo. Isso sugere que as restrições impostas (penalidades de 1 milhão) funcionam bem para guiar a busca, independentemente da população inicial.
+* *Gráfico:* A análise visual da curva de evolução do fitness (no gráfico) demonstra uma convergência robusta. Observa-se um crescimento acentuado do lucro nas primeiras 15 gerações, indicando a rápida eliminação de soluções penalizadas (inviáveis). A partir da 60ª geração, o sistema atinge um platô de estabilidade, sugerindo que o algoritmo encontrou um ponto de saturação (convergência) próximo a 650 milhões. A ausência de quedas bruscas ao longo da curva reforça que a estratégia de Elitismo foi eficaz em preservar as melhores características genéticas ao longo do processo evolutivo.
+
+O desenvolvimento deste projeto demonstrou a eficácia da computação evolutiva na resolução de problemas complexos de otimização agrícola. Através da implementação de operadores genéticos clássicos (crossover de ponto único, mutação e seleção por elitismo) aliados a uma função de aptidão com penalidades rigorosas, foi possível maximizar o lucro da safra respeitando todas as restrições de área e diversidade de culturas. As simulações realizadas indicam que o modelo é robusto, apresentando convergência estável e rápida.
+
 
 ## License
 
