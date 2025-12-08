@@ -17,8 +17,8 @@ Selecionar a melhor combinação Produto-Estado para maximizar o lucro total, re
 * notebook.ipynb: Relatório executável com análises.
 
 ## 🚀 Como Executar
-1. Instale as dependências: pip install pandas numpy matplotlib
-2. Abra o notebook.ipynb no Colab.
+1. Abra o notebook.ipynb no Colab.
+2. Instale as dependências: pip install pandas numpy matplotlib
 3. Execute todas as células para rodar a bateria de 5 testes.
 
 ## 📊 Resultados da Experimentação
