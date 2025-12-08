@@ -1,3 +1,11 @@
+Equipe Capivara: AG
+*   Anthony Santos
+*   Renan de Barros
+*   Ariane Fernandes
+*   Jhonata Martins
+*   Felipe Nascimento
+*   Vivia Câmara
+
 # Otimizacao Plano Cultivo
 
 Otimização do Plano de Cultivo de uma Multinacional com implementação do Algoritmo Genético para otimização do plano de cultivo.
